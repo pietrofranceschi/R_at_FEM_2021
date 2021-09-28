@@ -12,7 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Outline
 
-* Rmd Files
+## Rmd Files
+
+In Rmd the chunks of R are represented by shaded areas
+
+```{r}
+# create a variable called a which cointains a sequence of 10 numbers
+a <- 1:10
+```
+
+
+
 * Packages
 * Data Types
 * Data Frames and tibbles
