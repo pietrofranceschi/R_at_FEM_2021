@@ -81,15 +81,39 @@ iris$Species ## get out only the "Species" column
 ```
 
 
+## Loading data!
+
+The easiest way is to use the button "Import Dataset" in the "environment"
+tab
+
+```{r}
+## load the data by using the utilities provided in readr
+library(readr)
+skulls <- read_csv("skulls.csv")
+
+```
+
+
+## Adding Columns
+
+```{r}
+## add to the iris df one column containing the ratio between sepal and petal
+
+iris$myratio <- iris$Sepal.Length/iris$Sepal.Width
+
+```
 
 
 
 
 
-* Loading data!
 * DIY - Practical
     * Subsetting
     * Creating new columns
+    
+    
+    
+    
 * R Functions
 * DIY - Practical
 * ggplotting, first steps
