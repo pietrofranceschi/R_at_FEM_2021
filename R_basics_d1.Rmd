@@ -1,0 +1,29 @@
+---
+title: "R Basics Day 1"
+author: "Pietro Franceschi"
+date: "9/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Outline
+
+* Rmd Files
+* Packages
+* Data Types
+* Data Frames and tibbles
+    * Extracting rows and columns
+* Loading data!
+* DIY - Practical
+    * Subsetting
+    * Creating new columns
+* R Functions
+* DIY - Practical
+* ggplotting, first steps
+* DIY - practical
+
+
