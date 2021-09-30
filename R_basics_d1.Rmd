@@ -104,16 +104,6 @@ iris$myratio <- iris$Sepal.Length/iris$Sepal.Width
 ```
 
 
-
-
-
-* DIY - Practical
-    * Subsetting
-    * Creating new columns
-    
-    
-    
-    
 * R Functions
 * DIY - Practical
 * ggplotting, first steps
